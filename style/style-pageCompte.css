@@ -1,0 +1,171 @@
+body{
+	
+	margin:0;
+	padding:0;
+	background-image:url('../images/fond.png');
+	background-repeat:"no-repeat";
+	background-size:cover;
+	-webkit-background-size:cover;
+	
+    font-family: 'Montserrat', sans-serif;
+	
+	
+}
+
+
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+
+td{
+	border: 1px solid black;
+	padding:2px;
+	text-align:center;
+}
+#titre{
+	
+	color:4CAF50;
+	margin-top:10px;
+}
+
+#bdeconnexion{
+-moz-border-radius:10px 10px;
+-webkit-border-radius:10px 10px;
+border-radius:10px 10px;	
+
+background-color:white;
+
+width:30px;
+height:30px;
+font-weight:bold;
+width:100px;
+position:absolute;
+right:10px;
+top:7px;
+}
+#bdeconnexion:hover{
+background-color:#4CAF50;
+
+}
+
+#bPageUtil {
+	-moz-border-radius:10px 10px;
+	-webkit-border-radius:10px 10px;
+	border-radius:10px 10px;
+	background-color:white;
+	border-color:black;
+	width:30px;
+	height:40px;
+	font-weight:bold;
+	width:100px;
+	position:fixed;
+	right:115px;
+	top:7px;
+}
+#bPageUtil:hover{
+	background-color:grey;
+}
+
+#bAide{
+	-moz-border-radius:10px 10px;
+	-webkit-border-radius:10px 10px;
+	border-radius:10px 10px;
+	background-color:white;
+	border-color:black;
+	width:30px;
+	height:30px;
+	font-weight:bold;
+	width:100px;
+	position:fixed;
+	right:220px;
+	top:7px;
+}
+#bAide:hover{
+	background-color:grey;
+}
+
+#titre{
+	position:relative;
+	top:90px;
+}
+
+#tableSujet{
+	position:absolute;
+	top:200px;
+	left:51%;
+	width:47%;
+	height:79%;
+	overflow:auto;
+	-moz-border-radius:10px 10px;
+	-webkit-border-radius:10px 10px;
+	border-radius:10px 10px;
+	border: 4px solid #4CAF50;
+	padding: 5px;
+}
+
+#infoPerso{
+	position:absolute;
+	top:200px;
+	right:51%;
+	width:47%;
+	height:79%;
+	-moz-border-radius:10px 10px;
+	-webkit-border-radius:10px 10px;
+	border-radius:10px 10px;
+	border: 4px solid #4CAF50;
+	padding: 5px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.navigation {
+    width: auto;
+    background-color: white;
+    padding: 25px;
+}
+
+.navigation a {
+    color: black;
+}
+
+.navigation .logo {
+    font-weight: 700 !important;
+    float: left;
+	color:#4CAF50;
+}
+
+.navigation ul {
+    float: right;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

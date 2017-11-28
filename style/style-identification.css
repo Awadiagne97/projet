@@ -1,19 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-  
-   margin:0;
+body{
+	margin:0;
 	padding:0;
-	background-image:url('../images/fond.png');
-	background-repeat:no-repeat;
-	background-position : bottom center;
-
+	
+	background-size : 100px;
+	background-size:cover;
+	-webkit-background-size:cover;
 	
     font-family: 'Montserrat', sans-serif;
-  
 }
 
 a {
@@ -22,38 +15,31 @@ a {
 
 li {
     list-style-type: none;
-	color:#f2f2f2;
 }
+
 
 .container {
 	
     margin: 0 auto;
     max-width: 1280px;
     width: 90%;
-	height : 50%;
 }
 
 .navigation {
     width: auto;
-    background-color: white;
+    
     padding: 25px;
 }
 
 .navigation a {
- color:black;
+    color: black;
 }
 
 .navigation .logo {
-	  
-  
+    font-weight: 700 !important;
     float: left;
-	font-weight:700!important;
-	color: #4CAF50;
-
-	
-	
+	color:#4CAF50;
 }
-
 
 .navigation ul {
     float: right;
@@ -65,74 +51,12 @@ li {
 }
 
 
-/*
- ============
-    Hero
- ============
-*/
-
-.hero {
-   
-    width: auto;
-    padding-top: 5em;
-	
-
-}
-
-.hero h1 {
-    color: #FF5A5F !important;
-    font-weight: 700 !important;
-    font-size: 22px !important;
-    line-height: 46px !important;
-    letter-spacing: -0.8px !important;
-}
-
-.hero p {
-    font-weight: 300 !important;
-    font-size: 25px !important;
-    line-height: 46px !important;
-    letter-spacing: -0.8px !important;
-    margin-bottom: 20px;
-}
-
-.btn {
-    padding: 12px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #fff;
-    border: 0 none;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.3;
-}
-
-.btn_inscription {
-    color: #FFFFFF;
-    background: #3dd28d;
-}
-
-
-
-.footer {
-    text-align: center;
-    padding: 4em;
-    clear: both;
-}
-
-.account-page {
-    width: 360px;
-    padding: 8% 0 0;
-    margin: auto;
-}
-
-
-
 
 .form {
     position: relative;
     z-index: 1;
     background: #FFFFFF;
-    max-width: 360px;
+    max-width: 250px;
     margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
@@ -143,7 +67,6 @@ li {
     font-family: "Montserrat", sans-serif;
     outline: 0;
     background: #f2f2f2;
-	
     width: 100%;
     border: 0;
     margin: 0 0 15px;

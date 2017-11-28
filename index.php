@@ -1,60 +1,50 @@
 <?php
-
-	session_start();
+session_start();
 
 ?>
 
-<!doctype html>
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title> EASY TEST</title>
+    <link rel="stylesheet" href="style/style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-		<head>
+</head>
 
-			<meta charset="utf-8"/>
+<body background="images/fond.png";background-repeat="no-repeat";background-position="bottom right";>
 
-			<link type="text/css" rel="stylesheet" href="style/style-acceuil.css"/>
-
-		</head>
-
-
-
-<body>
-
-
-	<header>
+    <header class="top">
 	
-	
-			<nav>
-				<ul>
-					<li><a href="Inscription.php" title="S'inscrire pour créer un QCM"> Inscription </a> </li>				
-					<li><a href="Connexion.php" title="Se connecter" > Connexion </a> </li>		
-					
-				</ul>
-			</nav>
-		<!--connexion : regroupe les champs permettant de se connecter-->
+        <nav class="navigation container">
+              <a href="#" class="logo">EASY TEST</a>
+            <ul class="nav-right">
+                <li><a href="connexion.php">Se connecter</a></li>
+                <li><a href="inscription.php">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	</header>
+    <div class="hero" 	>
 
-		<div id="centre">
-			<p> <img src="images/fond-test1"> </p>
-		</div>
+        <div class="container">
+            <h1 class="titre">Easy Test </h1>
+            <p class="description">Facillite la creation de vos qcm!<br>Creez votre QCM rapidement!.</p>
+            <a href="aideQCM.php" class="btn btn_inscription">Comment créer un QCM ?</a>
+        </div>
+    </div></br> </br></br>
 
-		<!--inscription : regroupe les champs permettant a un utilisateur de se creer un compte-->
+    
 
-
-		<!--information sur amc maker : balise en dehors de l'ecran, l'ecran scroll automatiquement lors du clic sur le href-->
-
-		<footer>
-			<div id="infoAMC">
-				<h1>  En savoir plus!</h1><br>
-				
-		
-			
-			</div>	
-		</footer>
+    <footer class="footer">
+        <div class="container">
+            <p><small>&copy; 2017 Université de Versailles Saint Quentin en Yvelines France</small></p>
+        </div>
+    </footer>
 
 </body>
-
 </html>
